@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/shoppingCar.css">
+</head>
+<body>
+    <header></header>
+    <main class="layout">
+        <div class="wrap">
+            <h3 class="backToIndex">以下是您购物清单中的所有商品，请及时点击下方结算按钮，把您心爱的它带回家，如果它们不能满足您的需求，请点击<a href="../html/index.html">继续购物</a>，祝您生活愉快!!!</h3>
+            <table>
+                <thead>
+                    <th>
+                        <input type="checkbox" id="checkAll">
+                        <span>选择/取消所有</span>
+                    </th>
+                    <th>商品图片</th>
+                    <th>商品信息</th>
+                    <th>单价</th>
+                    <th>数量</th>
+                    <th>合计</th>
+                    <th>移除商品</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkBox" id="check"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <button class="minus">-</button>
+                            <span class="amount">0</span>
+                            <button class="plus">+</button>
+                        </td>
+                        <td></td>
+                        <td><button class="delete">DELETE</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5"><button class="settle">SETTLE</button></td>
+                        <td class="totalPrice"></td>
+                        <td><button class="clearAll">CLEAR All</button></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+<script src="../src/require.js" data-main="../js/shoppingCar.js"></script>
+</html>

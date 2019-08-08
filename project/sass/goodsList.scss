@@ -1,0 +1,64 @@
+.category .list{
+    display: none;
+}
+main{
+    border-top: solid 2px #f00; border-bottom: solid 2px #f00; 
+    .itemsWrap{
+        overflow: auto; padding: 20px 0;
+        .init{
+            margin: 0 auto;
+        }
+        .product{
+            float: left; width: 230px; height: 410px; background: #fff; border: solid 2px #ccc; padding: 0 20px; margin-top: 20px; margin-right: 26px;
+            .check{
+                display: block; width: 20px; height: 20px; margin: 10px 0;
+            }
+            .goodsImg{
+                display: block; margin-bottom: 10px;
+                img{
+                    display: block; width: 200px; height: 200px;  margin: 0 auto;
+                }
+            }
+            .goodsInfo{
+                font: 16px/2 ""; color: #666;
+                margin: 10px 0; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; margin: 0 auto;
+            }
+            .priceAddSupport{
+                width: 200px; display: flex; justify-content: space-between; align-items: center; margin: 10px 0;
+                .price{
+                    font-weight: bold; color: #000;
+                }
+                .generation{
+                    width: 24px; height: 24px; background: url(../imgs/spriter.png) no-repeat -521px -485px;
+                }
+                .stockBook{
+                    width: 24px; height: 24px; background: url(../imgs/spriter.png) no-repeat -689px -485px;
+                }
+            }
+            .sku{
+                display: flex; align-items: center; font: 16px/2 ""; color: #f00; margin: 10px 0;
+                em{
+                    width: 25px; height: 17px; background: url(../imgs/CB.png) no-repeat; margin-left: 10px;
+                }
+            }
+            .stockAddSailAmount{
+                margin: 10px 0; display: flex; justify-content: space-between;
+            }
+            .addCar{
+                margin: 10px auto; height: 32px; font: 16px/2 ""; background: #f00; text-align: center; border-radius: 10px;
+            }
+        }
+    }
+    .page{
+        display: flex; margin: 20px; justify-content: center;  font: 14px/24px "";
+        button{
+            width: 60px; height: 24px; 
+        }
+        .pageList{
+            margin: 0 20px; display: flex;
+            li{
+                height: 22px;padding: 0 10px; border: solid #ccc 1px; margin: 0 10px;
+            }
+        }
+    }
+}

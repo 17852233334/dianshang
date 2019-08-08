@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login&register.css">
+</head>
+<body>
+    <header>
+        <section class="layout">
+            <a href="#"><img src="../imgs/logo.png" alt=""></a>
+            <div>
+                <p>If you don't have chinese account, please click the button below!!!</p>
+                <button>Register</button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="login">
+            <div class="wrap">
+                <h3 class="top">欢迎来到环球华品，请登录您的账号</h3>
+                <div class="middle">
+                    <p class="userBox">
+                        <input type="text" class="user" placeholder="请输入用户名...">
+                        <span></span>
+                    </p>
+                    <p class="pwdBox">
+                        <input type="password" class="pwd" placeholder="请输入密码...">
+                        <span></span>
+                        <em class="togglePwd"></em>
+                    </p>
+                    <p class="resetPwd">
+                        忘记密码，<b id="reset">立即找回</b>
+                    </p>
+                    <p class="loginWrap">
+                        <button class="loginBtn">登录</button>
+                    </p>
+                </div>
+                <div class="bottom">
+                    还没有账号，<p id="reg">立即注册</p>
+                </div>
+            </div>
+        </section>
+        <section id="register">
+            <div class="wrap">
+                <h3 class="top">欢迎来到环球华品，请注册您的账号</h3>
+                <div class="middle">
+                    <p class="userBox">
+                        <input type="text" class="user" placeholder="请输入用户名...">
+                        <span></span>
+                    </p>
+                    <p class="telBox">
+                        <input type="text" class="tel" placeholder="请输入您的邮箱/手机号...">
+                        <span></span>
+                    </p>
+                    <p class="pwdBox">
+                        <input type="password" class="pwd" placeholder="请输入密码...">
+                        <span></span>
+                        <em class="togglePwd"></em>
+                    </p>
+                    <p class="confirmPwdWrap">
+                            <input type="password" id="confirmPwd" placeholder="请再次输入密码...">
+                            <span></span>
+                            <em class="togglePwd"></em>
+                        </p>
+                    <p class="regWrap">
+                        <button class="regBtn">注册</button>
+                    </p>
+
+                </div>
+                <div class="bottom">
+                    已有账号，<p id="goLogin">立即登录</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="layout">
+            <ul class="logo">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+            <section class="siteInfo">
+                <p>Copyright ©2011-2018 ChinaBrands.cn.All Rights Reserved.</p>
+                <p><a><img src="../imgs/country_sign.png" alt=""><span>粤ICP备18031977号-1.</span></a></p>
+            </section>
+        </section>
+    </footer>
+</body>
+<script src="../src/require.js" data-main="../js/login&register.js"></script>
+</html>

@@ -1,0 +1,50 @@
+.category .list {
+    display: none; }
+  
+main {
+  padding: 20px 0;
+  border-top: solid #f00 2px;
+  border-bottom: solid #f00 2px; }
+  main .wrap {
+    width: 1000px;
+    margin: 0 auto; }
+    main .wrap .backToIndex {
+      text-align: center;
+      font: 20px/2 ""; }
+      main .wrap .backToIndex a {
+        color: #f00;
+        font-weight: bold; }
+    main .wrap table {
+      width: 1000px;
+      border: solid #ccc 1px;
+      border-collapse: collapse;
+      font: 14px/2 ""; }
+      main .wrap table th {
+        border: solid #ccc 1px;
+        font: bold 16px/2 ""; }
+      main .wrap table td {
+        width: 100px;
+        border: solid #ccc 1px;
+        height: 24px;
+        text-align: center; }
+      main .wrap table img{
+        width: 80px;
+        height: 80px; }
+      main .wrap table tbody .minus, main .wrap table tbody .plus {
+        width: 30px;
+        height: 30px; }
+      main .wrap table tbody td:nth-child(3){
+          width: 200px; }
+      main .wrap table tbody .amount {
+        margin: 0 10px; }
+      main .wrap table tbody .delete {
+        width: 80px;
+        height: 30px; }
+      main .wrap table tfoot .settle {
+        margin: 10px 0;
+        width: 80px;
+        height: 30px; }
+      main .wrap table tfoot .clearAll {
+        margin: 10px 0;
+        width: 80px;
+        height: 30px; }

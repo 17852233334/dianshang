@@ -1,0 +1,152 @@
+[
+    {
+        "src": "../imgs/goods1.jpg",
+        "goodsInfo": "40X60 Monocular Telescope HD Prism Scope with Compass Phone Clip Tripod",
+        "price": "1605",
+        "generation": true,
+        "stockBook": false,
+        "sku": "255222506",
+        "stock": 6855,
+        "sail": 6522
+    },
+    {
+        "src": "../imgs/goods2.jpg",
+        "goodsInfo": "Modern Stainless Steel Knife Fork Wall Clock Analog for Home Office",
+        "price": "3305",
+        "generation": true,
+        "stockBook": true,
+        "sku": "552225555",
+        "stock": 666,
+        "sail": 6662
+    },
+    {
+        "src": "../imgs/goods3.jpg",
+        "goodsInfo": "Men Solid Color Letter Embellishment Dull Polish Open Vertical Wallet",
+        "price": "155.05",
+        "generation": true,
+        "stockBook": true,
+        "sku": "55885222",
+        "stock": 100,
+        "sail": 5522
+    },
+    {
+        "src": "../imgs/goods4.jpg",
+        "goodsInfo": "GEN GAME X3 Wireless Bluetooth Gamepad Game Controller for iOS Android Smartphones Tablet Windows PC TV Box",
+        "price": "179",
+        "generation": true,
+        "stockBook": true,
+        "sku": "88812255",
+        "stock": 82,
+        "sail": 32
+    },
+    {
+        "src": "../imgs/goods5.jpg",
+        "goodsInfo": "S9 Micro Foldable RC Quadcopter RTF 2.4GHz 4CH 6-axis Gyro / Headless Mode / One Key Return",
+        "price": "6555",
+        "generation": true,
+        "stockBook": true,
+        "sku": "515151220",
+        "stock": 22,
+        "sail": 622
+    },
+    {
+        "src": "../imgs/goods6.jpg",
+        "goodsInfo": "JRC R8 Touch Sensing LED Eyes RC Robot Smart Voice DIY Body Gesture Model Toy",
+        "price": "8525",
+        "generation": true,
+        "stockBook": false,
+        "sku": "8152020255",
+        "stock": 2,
+        "sail": 52
+    },
+    {
+        "src": "../imgs/goods7.jpg",
+        "goodsInfo": "Electric Toothbrush with 4 Brush Heads Oral Hygiene Dental Care Accessories",
+        "price": "952.05",
+        "generation": true,
+        "stockBook": true,
+        "sku": "1812222335",
+        "stock": 70,
+        "sail": 852
+    },
+    {
+        "src": "../imgs/goods8.jpg",
+        "goodsInfo": "202 Mini Automatic Thread Sewing Machine Double Speed Control Button",
+        "price": "1965",
+        "generation": true,
+        "stockBook": true,
+        "sku": "1522223666",
+        "stock": 62,
+        "sail": 322
+    },
+    {
+        "src": "../imgs/goods9.jpg",
+        "goodsInfo": "Air Power Soccer Disc LED Lights Electric Gliding Floating Football Indoor Outdoor Game Kids Toy",
+        "price": "8505",
+        "generation": true,
+        "stockBook": true,
+        "sku": "4845566221",
+        "stock": 552,
+        "sail": 6632
+    },
+    {
+        "src": "../imgs/goods10.jpg",
+        "goodsInfo": "Multifunction Reciprocating Saw Attachment Change Electric Drill for Wood Metal Cutting",
+        "price": "800.00",
+        "generation": true,
+        "stockBook": true,
+        "sku": "1523366554",
+        "stock": 552,
+        "sail": 9552
+    },
+    {
+        "src": "../imgs/goods11.jpg",
+        "goodsInfo": "Outlife Tactical Military Swat Field Battle Airsoft Molle Combat Assault Plate Carrier Vest",
+        "price": "15955",
+        "generation": true,
+        "stockBook": true,
+        "sku": "5555688744",
+        "stock": 62,
+        "sail": 55552
+    },
+    {
+        "src": "../imgs/goods12.jpg",
+        "goodsInfo": "Car Trucker Speed V9 Radar Detector Voice Alert Warning 16 Band Auto 360 Degrees",
+        "price": "565",
+        "generation": true,
+        "stockBook": true,
+        "sku": "5522667884141",
+        "stock": 62,
+        "sail": 52
+    },
+    {
+        "src": "../imgs/goods13.jpg",
+        "goodsInfo": "5pcs Skate Park Kit Ramp Parts for Tech Deck Fingerboard",
+        "price": "168",
+        "generation": true,
+        "stockBook": true,
+        "sku": "5552361884",
+        "stock": 52,
+        "sail": 5522
+    },
+    {
+        "src": "../imgs/goods14.jpg",
+        "goodsInfo": "ZEEPIN i7S Car Wireless Bluetooth Earbuds V4.2 + EDR Pairs of Earphone with Charging Case ",
+        "price": "55.05",
+        "generation": false,
+        "stockBook": true,
+        "sku": "5159959488",
+        "stock": 28,
+        "sail": 625
+    },
+    {
+        "src": "../imgs/goods15.jpg",
+        "goodsInfo": "Inlife E40 40M Handheld Digital Laser Distance Meter with High Accuracy",
+        "price": "15.05",
+        "generation": true,
+        "stockBook": false,
+        "sku": "1519944845",
+        "stock": 5,
+        "sail": 221
+    }
+]

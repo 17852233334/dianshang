@@ -1,0 +1,408 @@
+
+.layout{
+    width: 1200px; margin: 0 auto;
+}
+// header
+$arr: #f6f6f6 #000 #fff #e0e0e0;
+#headerWrap{
+    background: nth($arr,1);
+    .top{
+        background: nth($arr,2); height: 30px; 
+        .layout{
+            display: flex; justify-content: space-between; font: 14px/30px ""; align-items: center; 
+        }
+        a{
+            color: #f00; 
+        }
+        .left{
+            display: flex; justify-content: flex-start;
+            a{
+                padding: 0 20px;
+            }
+        }
+        .right{
+            display: flex; justify-content: flex-end;
+            a{
+                padding: 0 10px;
+            }
+        }
+    }
+    .middle{
+        display: flex; justify-content: space-between; height: 98px; align-items: center;
+        .logo{
+            padding: 24px 15px; width: 180px; background: nth($arr,3);
+            a{
+                display: block; width: 180px; height: 50px;
+                img{
+                    display: block; width: 100%; height: 100%;
+                }
+            }
+        }
+        .center{
+            flex-basis: 5.72rem; display: flex; font: 12px/36px ""; height: 36px; background: nth($arr,4); border-radius: 8px;
+            .category{
+                width: 102px; font-size: 16px; text-align: center;
+            }
+            .find{
+                display: flex;
+                *{
+                    border: none; background: none; outline: none;
+                }
+                .txt{
+                    width: 420px; height: 36px; text-indent: 20px;
+                }
+                .btn{
+                    width: 50px; height: 36px; background: #da0120; border-radius: 0 8px 8px 0; 
+                }
+                .btn:after{
+                    content: ""; display: block; width: 14px; height: 14px; background: url(../imgs/spriter.png) -1299px -270px  no-repeat; margin: 0 auto;
+                }
+            }
+        }
+        .right{
+            width: 200px; display: flex; justify-content: space-between; font: 12px/16px "";
+            a{
+                display: block;
+            }
+            .user{
+                position: relative;
+                span{
+                    display: block;
+                }
+                .login{
+                    font-weight: 700;
+                }
+            }
+            .user::before{
+                content: ""; position: absolute; width: 30px; height: 36px; background: url(../imgs/spriter.png) -159px -855px no-repeat; left: -35px;
+            }
+            .car{
+                position: relative;
+                span{
+                    display: block;
+                }
+                .amount{
+                    width: 40px; height: 16px; background: #da0120; color: #fff; text-align: center; font: 12px/16px ""; border-radius: 10px;
+                }
+            }
+            .car::before{
+                content: ""; position: absolute; width: 30px; height: 36px; background: url(../imgs/spriter.png) -196px -857px no-repeat; left: -35px;
+            }
+        }
+    }
+    nav{
+        height: 46px; display: flex; 
+        a{
+            display: block; 
+        }
+        .category{
+            width: 210px; font: 14px/2 "";
+            >a{
+                padding: 0 15px; color: #000; font: 700 16px/46px ""; background: #fff;
+            }
+            .list{
+                height: 526px; background: #fff;
+                .first{
+                    display: flex; position: relative; 
+                    >a{
+                        width: 180px; padding: 0 15px; color: #333333; font: bold 16px/2 ""; background: #fff;
+                    }
+                    .second{
+                        width: 958px; height: 464px; padding: 30px 30px; border: solid 1px #ccc; background: #fff; position: absolute; z-index: 1; left: 210px; display: none;
+                        dd{
+                            display: flex;
+                            >a{
+                                width: 120px; color: #f00; font-weight: bold; 
+                            }
+                            .third{
+                                display: flex; flex-wrap: wrap; display: none;
+                                li{
+                                    margin: 0 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .navList{
+            padding-left: 10px; display: flex; font: 700 16px/46px "";
+            li{
+                margin-right: 40px;
+                a{
+                    color: #000;
+                }
+            }
+            .new,.hot{
+                position: relative;
+            }
+            .new::before,.hot::before{
+                content: ""; position: absolute; width: 14px; height: 14px; background: url(../imgs/spriter.png) no-repeat; left: 0; right: 0; margin: auto;
+            }
+            .new::before{
+                background-position: -824px -548px;
+            }
+            .hot::before{
+                background-position: -888px -548px;
+            }
+        }
+    }
+}
+// footer
+#footerWrap{
+    padding: 20px 0;
+    .top{
+        font: 12px/2 ""; color: #333; padding-bottom: 20px;
+        .layout{
+            display: flex; justify-content: space-between;
+            dl{
+                width: 160px; padding: 20px; 
+                dt{
+                    color: #000; font-weight: 700;
+                }
+                dd.gap{
+                    height: 1px; background: #333; width: 100px; margin: 10px 0;
+                }
+            }
+            .news{
+                font-weight: 700; color: #000; text-align: center;
+                p{
+                    margin: 12px 0;
+                }
+                button{
+                    padding: 0 15px; background: #da0120; border: none; font: 14px/2 "";
+                    a{
+                        color: #fff;
+                    }
+                }
+                ul{
+                    display: flex; justify-content: center; margin-top: 20px;
+                    li{
+                        margin: 0 5px;
+                        a{
+                            display: block; width: 40px; height: 40px; background: url(../imgs/spriter.png) no-repeat;
+                        }
+                    }
+                    :nth-child(1) a{
+                        background-position: -1187px -796px;
+                    }
+                    :nth-child(2) a{
+                        background-position: -1147px -796px;
+                    }
+                    :nth-child(3) a{
+                        background-position: -1027px -796px;
+                    }
+                    :nth-child(4) a{
+                        background-position: -946px -796px;
+                    }
+                    :nth-child(5) a{
+                        background-position: -1227px -796px;
+                    }
+                }
+            }
+        }
+    }
+    .middle{
+        height: 80px; background: #000; padding: 20px 0;
+        .layout{
+            display: flex; justify-content: space-around;
+            a{
+                color: #ccc; padding: 0 40px 0 10px; 
+            }
+            div{
+                text-align: center; line-height: 80px; font-weight: 700; display: flex; justify-content: center; align-items: center;
+                em{
+                    width: 50px; height: 50px; background: url(../imgs/spriter.png) no-repeat;
+                }
+            }
+            :nth-child(1) em{
+                background-position: -112px -796px;
+            }
+            :nth-child(2) em{
+                background-position: -576px -180px;
+            }
+            :nth-child(4) em{
+                background-position: -580px -796px;
+            }
+            :nth-child(5) em{
+                background-position: -576px -120px;
+            }
+            .register{
+                width: 140px; height: 140px; margin-top: -50px; background: #9e0a0a; border-radius: 50%;
+                div{
+                    width: 125px; height: 125px; background: #c00717; border-radius: 50%; text-align: center;
+                    a{
+                        display: block; padding: 0; font: 22px/125px ""; color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .bottom{
+        background: #f6f6f6; padding: 20px 0; display: flex; flex-direction: column; justify-content: space-around;
+        .logo{
+            display: flex; justify-content: center;
+            li{
+                a{
+                    display: block; background: url(../imgs/footer-logo.png) no-repeat; margin: 0 5px;
+                }
+            }
+            li:nth-child(1) a{
+                background-position: -1px 0;width: 90px; height: 43px; 
+            }
+            li:nth-child(2) a{
+                background-position: -100px 0; width: 72px; height: 43px; 
+            }
+            li:nth-child(3) a{
+                background-position: -181px 0; width: 48px; height: 43px; 
+            }
+            li:nth-child(4) a{
+                background-position: -240px 0; width: 45px; height: 43px; 
+            }
+            li:nth-child(5) a{
+                background-position: -300px 0; width: 72px; height: 43px; 
+            }
+            li:nth-child(6) a{
+                background-position: -382px 0; width: 72px; height: 43px; 
+            }
+
+        }
+        .linkWrap{
+            display: flex; justify-content: center; width: 80%; margin: 0 auto;
+            div:nth-child(1){
+                color: #000; width: 70px; font: bold 14px/24px "";
+           }
+           .friendLink{
+                display: flex; font: 12px/2 ""; flex-wrap: wrap;
+                a{
+                    color: #666;
+                }
+                a::after{
+                    content: "|"; padding: 0 10px; color: #000;
+                }
+                a:last-child:after{
+                    content: ""; padding: 0;
+                }
+                a:hover{
+                    color: #f00;
+                }
+            }
+        }
+        .ICP{
+            margin-top: 10px; font: 12px/2 ""; display: flex; justify-content: center; align-items: center;
+            a{
+                color: #000;
+                img{
+                    vertical-align: middle; margin-right: 10px;
+                }
+            }
+            a:nth-child(1),.ICP a:nth-child(2){
+                margin-right: 30px; 
+            }
+        }
+        .copyRight{
+            text-align: center; font: 12px/28px "";
+        }
+    }
+}
+// <!-- 右侧导航菜单 -->
+#sideMenu{
+    width: 40px; position: fixed; top: 100px;  right: 0; font: 18px/1 ""; text-align: center;
+    .menu{
+        padding-top: 10px; background: #000;
+        li{
+            margin-top: 10px;
+            em{
+                display: block; width: 40px; height: 40px; background: url(../imgs/spriter.png) no-repeat;
+            }
+            a{
+                display: block; width: 18px; color: #fff; margin: 0 auto;
+            }
+        }
+        li:nth-child(1) em{
+            background-position: 0 -902px; position: relative; color: #fff;
+        }
+        li:nth-child(1) span{
+            position: absolute; padding: 1px 8px; background: #c00717; border-radius: 8px; left: 10px; margin: auto; top: -10px;
+        }
+        li:nth-child(2) em{
+            background-position: -280px -902px;
+        }
+        li:nth-child(3) em{
+            background-position: -80px -902px;
+        }
+        li:nth-child(4){
+            height: auto;
+        }
+        li:hover a{
+            color: #9e0a0a;
+        }
+        li:nth-child(4) a{
+            width: 40px;
+        }
+        li:nth-child(4) em{
+            background-position: -120px -902px; 
+        }
+    }
+    .backToTop{
+        margin-top: 10px; padding-bottom: 10px; width: 40px; height: 40px; background: #000 url(../imgs/spriter.png) no-repeat -1273px -210px;
+    }
+    .backToTop:hover{
+        background-position: -240px -900px;
+    }
+}
+/* 左侧商品楼层 */
+#floor{
+    position: fixed; top: 100px; left: 0; background: #000; width: 40px; font: 16px/40px "";
+    a{
+        width: 40px; position: relative;
+    }
+    em{
+        display: block; width: 40px; height: 40px; border-bottom: solid 1px #fff; background: url(../imgs/spriter.png) no-repeat;
+    }
+    span{
+        position: absolute; width: 78px; height: 40px; padding: 0 5px; left: 0; top: -40px; background: #fff; margin-left: 40px; display: none;
+    }
+    em:last-child{
+        border: none;
+    }
+    li:nth-child(1) em{
+        background-position: -706px -796px;
+    }
+    li:nth-child(2) em{
+        background-position: -626px -796px;
+    }
+    li:nth-child(3) em{
+        background-position: -386px -796px;
+    }
+    li:nth-child(4) em{
+        background-position: -266px -796px;
+    }
+    li:nth-child(5) em{
+        background-position: -586px -796px;
+    }
+    li:nth-child(6) em{
+        background-position: -546px -796px;
+    }
+    li:hover span{
+        display: block;
+    }
+    li:nth-child(1):hover em{
+        background-position: -666px -796px;
+    }
+    li:nth-child(2):hover em{
+        background-position: -506px -796px;
+    }
+    li:nth-child(3):hover em{
+        background-position: -346px -796px;
+    }
+    li:nth-child(4):hover em{
+        background-position: -786px -796px;
+    }
+    li:nth-child(5):hover em{
+        background-position: -906px -796px;
+    }
+    li:nth-child(6):hover em{
+        background-position: -306px -796px;
+    }
+}

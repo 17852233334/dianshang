@@ -1,0 +1,79 @@
+.category .list {
+  display: none;
+  z-index: 1; }
+
+main.layout {
+  border-top: solid 2px #f00;
+  border-bottom: solid 2px #f00;
+  padding: 30px 0; }
+  main.layout .goods {
+    display: flex;
+    justify-content: center;
+    border: solid #ccc 1px;
+    padding: 40px; }
+    main.layout .goods .goodsImg {
+      display: flex;
+      position: relative;
+      margin-right: 20px; }
+      main.layout .goods .goodsImg .smImg {
+        width: 380px;
+        height: 380px;
+        position: relative;
+        border: solid #ccc 1px; }
+        main.layout .goods .goodsImg .smImg img {
+          width: 380px;
+          height: 380px; }
+        main.layout .goods .goodsImg .smImg span {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 150px;
+          height: 150px;
+          background: rgba(0, 0, 0, 0.3);
+          display: none; }
+      main.layout .goods .goodsImg .bigImg {
+        width: 380px;
+        height: 380px;
+        overflow: hidden;
+        position: absolute;
+        left: 400px;
+        border: solid #ccc 1px;
+        display: none; }
+        main.layout .goods .goodsImg .bigImg img {
+          position: absolute;
+          width: 1140px;
+          height: 1140px; }
+    main.layout .goods .options {
+      background: #FFF2E8;
+      width: 350px;
+      height: 360px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font: 14px/2 ""; }
+      main.layout .goods .options .goodsInfo {
+        text-align: center;
+        font: bold 16px/2 ""; }
+      main.layout .goods .options .price span {
+        color: #f00;
+        font-weight: bold;
+        margin-left: 2px; }
+      main.layout .goods .options .adjustAmount {
+        display: flex; }
+        main.layout .goods .options .adjustAmount button {
+          width: 20px; }
+        main.layout .goods .options .adjustAmount .amount {
+          width: 50px;
+          text-align: center; }
+      main.layout .goods .options .buy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        main.layout .goods .options .buy span {
+          width: 140px;
+          height: 40px;
+          font: 20px/2 "";
+          color: #fff;
+          background: #f90;
+          text-align: center; }

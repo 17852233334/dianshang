@@ -1,0 +1,45 @@
+.category{
+    .list{
+        display: none;
+    }
+}
+main{
+    padding: 20px 0; border-top: solid #f00 2px; border-bottom: solid #f00 2px;
+    .wrap{
+        width: 800px; margin: 0 auto;
+        .backToIndex{
+            text-align: center; font: 20px/2 "";
+            a{
+                color: #f00; font-weight: bold;
+            }
+        }
+        table{
+            width: 800px; border: solid #ccc 1px; border-collapse: collapse; font: 14px/2 "";
+            th{
+                border: solid #ccc 1px; font: bold 16px/2 "";
+            }
+            td{
+                border: solid #ccc 1px; height: 24px; text-align: center;
+            }
+            tbody{
+                .minus,.plus{
+                    width: 30px; height: 80%;
+                }
+                .amount{
+                    margin: 0 10px;
+                }
+                .delete{
+                    width: 60%; height: 80%;
+                }
+            }
+            tfoot{
+                .settle{
+                    width: 80px; height: 80%;
+                }
+                .clearAll{
+                    width: 80px; height: 80%;
+                }
+            }
+        }
+    }
+}

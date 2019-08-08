@@ -1,0 +1,203 @@
+.layout {
+  width: 1200px;
+  margin: 0 auto; }
+
+header .layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px; }
+  header .layout > a {
+    width: 180px;
+    height: 48px; }
+    header .layout > a img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  header .layout > div {
+    width: 300px;
+    font: bold 14px/2 "";
+    color: #f00;
+    text-align: right; }
+    header .layout > div p {
+      text-align: left; }
+    header .layout > div > button {
+      width: 100px;
+      height: 24px;
+      background: #666;
+      color: #fff;
+      border: 0;
+      outline: none;
+      border-radius: 10px; }
+
+main {
+  height: 100vh;
+  background: url(../imgs/loginBg.jpg) no-repeat; }
+  main #login, main #register {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 340px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 4px #333; }
+  main #login .wrap {
+    width: 300px;
+    margin: 0 auto; }
+    main #login .wrap .top {
+      font: bold 18px/60px "";
+      color: #000; }
+    main #login .wrap .middle {
+      text-align: left;
+      font: 14px/2 ""; }
+      main #login .wrap .middle input {
+        color: #333;
+        display: block;
+        height: 24px;
+        outline: none;
+        width: 100%;
+        text-indent: 15px;
+        margin: 20px 0; }
+      main #login .wrap .middle span {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px; }
+      main #login .wrap .middle .pwdBox {
+        position: relative; }
+        main #login .wrap .middle .pwdBox .togglePwd {
+          position: absolute;
+          width: 30px;
+          height: 22px;
+          background: url(../imgs/pwd.bmp) no-repeat;
+          right: 0;
+          top: 2px; }
+      main #login .wrap .middle .resetPwd {
+        display: flex; }
+        main #login .wrap .middle .resetPwd #reset {
+          color: #f00;
+          cursor: default; }
+      main #login .wrap .middle .loginWrap {
+        margin: 20px 0; }
+        main #login .wrap .middle .loginWrap .loginBtn {
+          width: 100%;
+          height: 40px;
+          background: #666;
+          color: #fff;
+          font: 24px/40px ""; }
+    main #login .wrap .bottom {
+      font: 14px/2 "";
+      color: #333;
+      text-align: center; }
+      main #login .wrap .bottom #reg {
+        display: inline;
+        color: #f00;
+        cursor: default; }
+  main #register {
+    display: none; }
+    main #register .wrap {
+      width: 300px;
+      margin: 0 auto; }
+      main #register .wrap .top {
+        font: bold 18px/60px "";
+        color: #000; }
+      main #register .wrap .middle {
+        text-align: left;
+        font: 14px/2 ""; }
+        main #register .wrap .middle input {
+          color: #333;
+          display: block;
+          height: 24px;
+          outline: none;
+          width: 100%;
+          text-indent: 15px;
+          margin: 20px 0; }
+        main #register .wrap .middle span {
+          display: block;
+          width: 100%;
+          margin-bottom: 10px; }
+        main #register .wrap .middle .pwdBox {
+          position: relative; }
+          main #register .wrap .middle .pwdBox .togglePwd {
+            position: absolute;
+            width: 30px;
+            height: 22px;
+            background: url(../imgs/pwd.bmp) no-repeat;
+            right: 0;
+            top: 2px; }
+        main #register .wrap .middle .confirmPwdWrap {
+          position: relative; }
+          main #register .wrap .middle .confirmPwdWrap .togglePwd {
+            position: absolute;
+            width: 30px;
+            height: 22px;
+            background: url(../imgs/pwd.bmp) no-repeat;
+            right: 0;
+            top: 2px; }
+        main #register .wrap .middle .regWrap {
+          margin: 20px 0; }
+          main #register .wrap .middle .regWrap .regBtn {
+            width: 100%;
+            height: 40px;
+            background: #666;
+            color: #fff;
+            font: 24px/40px ""; }
+      main #register .wrap .bottom {
+        font: 14px/2 "";
+        color: #333;
+        text-align: center; }
+        main #register .wrap .bottom #goLogin {
+            display: inline;
+          color: #f00;
+          cursor: default; }
+
+footer {
+  background: #f6f6f6;
+  padding: 50px 0; }
+  footer .logo {
+    display: flex;
+    justify-content: center; }
+    footer .logo li a {
+      display: block;
+      background: url(../imgs/footer-logo.png) no-repeat;
+      margin: 0 5px; }
+    footer .logo li:nth-child(1) a {
+      background-position: -1px 0;
+      width: 90px;
+      height: 43px; }
+    footer .logo li:nth-child(2) a {
+      background-position: -100px 0;
+      width: 72px;
+      height: 43px; }
+    footer .logo li:nth-child(3) a {
+      background-position: -181px 0;
+      width: 48px;
+      height: 43px; }
+    footer .logo li:nth-child(4) a {
+      background-position: -240px 0;
+      width: 45px;
+      height: 43px; }
+    footer .logo li:nth-child(5) a {
+      background-position: -300px 0;
+      width: 72px;
+      height: 43px; }
+    footer .logo li:nth-child(6) a {
+      background-position: -382px 0;
+      width: 72px;
+      height: 43px; }
+  footer .siteInfo {
+    font: 14px/2 "";
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer .siteInfo :nth-child(1) {
+      margin-right: 20px; }
+    footer .siteInfo :nth-child(2) a {
+      display: flex;
+      align-items: center;
+      color: #333; }
+      footer .siteInfo :nth-child(2) a img {
+        margin-right: 5px; }

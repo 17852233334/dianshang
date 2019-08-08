@@ -1,0 +1,96 @@
+.category .list {
+  display: none; }
+
+main {
+  border-top: solid 2px #f00;
+  border-bottom: solid 2px #f00; }
+  main .itemsWrap {
+    overflow: auto;
+    padding: 20px 0; }
+    main .itemsWrap .init {
+      margin: 0 auto; }
+    main .itemsWrap .product {
+      float: left;
+      width: 180px;
+      height: 380px;
+      background: #fff;
+      border: solid 2px #ccc;
+      padding: 0 20px;
+      margin-top: 20px;
+      margin-right: 26px; }
+      main .itemsWrap .product .check {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin: 10px 0; }
+      main .itemsWrap .product .goodsImg {
+        display: block;
+        margin-bottom: 10px; }
+        main .itemsWrap .product .goodsImg img {
+          display: block;
+          width: 170px;
+          height: 170px;
+          margin: 0 auto; }
+      main .itemsWrap .product .goodsInfo {
+        font: 16px/2 "";
+        color: #666;
+        margin: 10px 0;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0 auto; }
+      main .itemsWrap .product .priceAddSupport {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0; }
+        main .itemsWrap .product .priceAddSupport .price {
+          font-weight: bold;
+          color: #000; }
+        main .itemsWrap .product .priceAddSupport .generation {
+          width: 24px;
+          height: 24px;
+          background: url(../imgs/spriter.png) no-repeat -521px -485px; }
+        main .itemsWrap .product .priceAddSupport .stockBook {
+          width: 24px;
+          height: 24px;
+          background: url(../imgs/spriter.png) no-repeat -689px -485px; }
+      main .itemsWrap .product .sku {
+        display: flex;
+        align-items: center;
+        font: 16px/2 "";
+        color: #f00;
+        margin: 10px 0; }
+        main .itemsWrap .product .sku em {
+          width: 25px;
+          height: 17px;
+          background: url(../imgs/CB.png) no-repeat;
+          margin-left: 10px; }
+      main .itemsWrap .product .stockAddSailAmount {
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-between; }
+      main .itemsWrap .product .addCar {
+        margin: 10px auto;
+        height: 32px;
+        font: 16px/2 "";
+        background: #f00;
+        text-align: center;
+        border-radius: 10px; }
+  main .page {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    font: 14px/24px ""; }
+    main .page button {
+      width: 60px;
+      height: 24px; }
+    main .page .pageList {
+      margin: 0 20px;
+      display: flex; }
+      main .page .pageList li {
+        height: 22px;
+        padding: 0 10px;
+        border: solid #ccc 1px;
+        margin: 0 10px; }
